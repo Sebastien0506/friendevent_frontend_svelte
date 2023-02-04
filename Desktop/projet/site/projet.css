@@ -1,0 +1,93 @@
+body {
+    background:linear-gradient(pink, white);
+    background-attachment: fixed;
+}
+nav {
+    display:flex;
+    justify-content: space-around;
+    border-bottom: 2px solid;
+}
+a:hover {
+    color:black;
+}
+h1{
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.collegue {
+ border: 2px solid;
+ height:100px;
+ text-align: center;
+}
+
+h3 {
+    text-align:center; 
+}
+.vente {
+    display:grid;
+    grid-template-columns:200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+     gap: 80px;
+    justify-content: center;
+}  
+nav a {
+    gap:15px;
+}
+.logo {
+    text-align:center;
+    margin-top: 40px;
+}
+.compte {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+.image1 {
+    display:grid;
+}
+
+.photo {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ /* pour les photo de la premeier ranger de prestation */
+
+ .photo2 {
+    display:flex;
+    margin-top:100px;
+    margin-left:120px;
+    justify-content: space-between;
+    width: 50%;
+     }
+     /* pour les photo de la deuxieme ligne  */
+     
+.description2 {
+        display:flex;
+        justify-content: center;
+        justify-content: space-around;
+       
+     }
+ p {
+    margin-top:0;
+    
+ }
+ .vente2 {
+    display:grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows:200px 200px;
+    justify-content: center;
+    gap:90px;
+    margin-top:50px;
+    /* pour les sections nos crèmes /Accessoire et maquillage */
+ }
+
+ a {
+    text-decoration: none;
+    color:black
+ }
+ .espace {
+    margin-top:80px;
+ }
